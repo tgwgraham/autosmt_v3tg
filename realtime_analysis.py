@@ -168,9 +168,7 @@ while True:
                     gottime = True
                 except:
                     pass
-            
-            print('got here')
-            
+                        
             # Write out properties to a csv file.
             df.to_csv(propfname)
             
