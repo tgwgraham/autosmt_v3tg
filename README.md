@@ -8,3 +8,9 @@ Communication with v3tg.mac involves reading and writing temporary files, which 
 
 You can optionally run realtime_analysis.py in the background to track movies and make plots of the analysis output. This requires the quot package
 https://github.com/alecheckert/quot
+
+Autoinjection system:
+Script syringe_inject.py is used to actuate a syringe pump injection system using a serial connection to an Arduino.
+triggered_backandforth.ino is the associated Arduino code.
+We used an Aitoserlea Desktop Injection Pump Laboratory Microinjection Pump Dispensing Apparatus Syringe Booster (3 Channel Set)
+[https://www.amazon.com/Injection-Propeller-Laboratory-Dispenser-1ml-150ml/dp/B09XKMFSRP](url)
